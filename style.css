@@ -4,14 +4,15 @@
 }
 body, html{
 height: 100%;
-/*background-color: #243147;*/
-background-image: url('./images/bg.jpeg');
+/*background-color: skyblue;*/
+background-image: url('./images/qq.jpg');
+/*background-image: url('./images/bg.jpeg');*/
 background-size: cover;
 }
 header{
 	width: 100%;
 	height: 100vh;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Dosis', sans-serif; 
 }
 .header-menu{
 	width: 100%;
@@ -114,6 +115,8 @@ padding-left: 50px;
 	font-size: 12px;
 	margin-right: 20px;
 	background-color: black;
+	border-radius: 20px;
+	text-decoration:none;
 }
 
 
@@ -282,7 +285,10 @@ aside p {
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
-/*.contact-me{
+/*.copyright{
+	padding: 30px;
+}
+.contact-me{
 	background-color: white;
 	overflow: auto;
 }
@@ -295,15 +301,14 @@ Footer
     border: none;
     border-bottom: 2px solid red;
     background-color: lightblue;
-}
-input{
+}*/
+/*input{
 	color:purple;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 2px solid red;
-}
+    border-bottom: 2px solid red;}
 
-}*/
+
